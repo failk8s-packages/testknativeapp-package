@@ -1,24 +1,28 @@
-# package-<#PACKAGE-NAME>
+# testknative-package
 
-This package provides <#PACKAGE> functionality using [<#PACKAGE-NAME>](<#PACKAGE-NAME-DOCS-URL>).
+This package provides a test application to validate Knative functionality.
 
 ## Components
 
-* <#PACKAGE-NAME>
+* testknativeapp
 
 ## Configuration
 
-The following configuration values can be set to customize the <#PACKAGE-NAME> installation.
+The following configuration values can be set to customize the testknativeapp installation.
+
+### Global
 
 ### Global
 
 | Value | Required/Optional | Description |
 |-------|-------------------|-------------|
-| `namespace` | Optional | The namespace in which to deploy <#PACKAGE-NAME>. |
+| `namespace` | Optional | The namespace in which to deploy testknativeapp. |
+| `privileged_clusterrole_name` | Optional | If PSPs are enabled on the cluster, this is the name of the privileged clusterrole that allows our test app to start |
+
 
 ## Usage Example
 
-This walkthrough guides you through using <#PACKAGE-NAME>...
+This walkthrough guides you through using testknativeapp...
 
 ## Develop checklist
 

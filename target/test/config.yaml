@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: testknativeapp-config
+  namespace: testknativeapp-package
+stringData:
+  values.yml: null

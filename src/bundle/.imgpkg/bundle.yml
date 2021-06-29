@@ -1,9 +1,9 @@
 apiVersion: imgpkg.carvel.dev/v1alpha1
 kind: Bundle
 metadata:
-  name: <PACKAGE-NAME>
+  name: testknativeapp
 authors:
-  - name: <AUTHOR NAME>
-    email: <AUTHOR-EMAIL>
+  - name: Jorge Morales
+    email: jomorales@vmware.com
 websites:
-  - url: <PACKAGE-NAME-URL>
+  - url: failk8s.com
