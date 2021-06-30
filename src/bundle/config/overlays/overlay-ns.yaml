@@ -4,9 +4,6 @@
 #@ if data.values.namespace!="testknativeapp":
 
 #@overlay/match by=overlay.subset({"kind":"Namespace", "metadata":{"name": "testknativeapp"}})
-#@overlay/remove
----
-
 ---
 apiVersion: v1
 kind: Namespace

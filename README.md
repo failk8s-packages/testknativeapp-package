@@ -12,8 +12,6 @@ The following configuration values can be set to customize the testknativeapp in
 
 ### Global
 
-### Global
-
 | Value | Required/Optional | Description |
 |-------|-------------------|-------------|
 | `namespace` | Optional | The namespace in which to deploy testknativeapp. |
@@ -22,7 +20,7 @@ The following configuration values can be set to customize the testknativeapp in
 
 ## Usage Example
 
-This walkthrough guides you through using testknativeapp...
+Just delpoy the package and test it. There should be an `ksvc` ready to use in the `namespace` you used. 
 
 ## Develop checklist
 
