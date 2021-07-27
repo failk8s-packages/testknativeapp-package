@@ -1,16 +1,16 @@
 apiVersion: data.packaging.carvel.dev/v1alpha1
 kind: Package
 metadata:
-  name: testknativeapp.tkgdev.failk8s.com.1.0.0
+  name: testknativeapp.tkgdev.failk8s.com.develop
   namespace: kapp-controller-packaging-global
 spec:
   refName: testknativeapp.tkgdev.failk8s.com
-  version: 1.0.0
+  version: develop
   template:
     spec:
       fetch:
       - imgpkgBundle:
-          image: quay.io/failk8s/testknativeapp-package:1.0.0
+          image: quay.io/failk8s/testknativeapp-package:develop
       template:
       - ytt:
           paths:
