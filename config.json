@@ -4,7 +4,7 @@
         "name": "testknativeapp",
         "domain": "dev.failk8s.com",
         "displayName": "Test Knative application",
-        "version": "develop"
+        "version": "1.0.0"
     },
     "packages":[]
 }
